@@ -72,7 +72,7 @@ export const GlobalProvider = ({ children }) => {
   const allPokemon = async () => {
     dispatch({ type: "LOADING" });
 
-    const res = await fetch(`${baseUrl}pokemon?limit=50`);
+    const res = await fetch(`${baseUrl}pokemon?limit=25`);
     const data = await res.json();
     console.log(data);
     dispatch({ type: "GET_ALL_POKEMON", payload: data });
