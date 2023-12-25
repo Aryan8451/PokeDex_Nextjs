@@ -135,7 +135,7 @@ const Home = () => {
           </button>
         </div>
         <div className="custom-select">
-          <label htmlFor="pokemonSelect">Select a Pokemon Type: </label>
+          <label className="label_select" htmlFor="pokemonSelect">Select a Pokemon Type: </label>
           <select
             id="pokemonSelect"
             className="custom-select"

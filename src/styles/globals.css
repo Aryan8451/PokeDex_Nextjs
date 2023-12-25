@@ -177,6 +177,17 @@ body {
   position: relative;
 }
 
+.custom-select {
+  
+  position: relative;
+  background: transparent;
+  border: none;
+  width: 25vw;
+}
+.label_select{
+  display: none;
+  width: 175px;
+}
 .all-pokemon .card img {
   width: 100%;
   height: 100%;
