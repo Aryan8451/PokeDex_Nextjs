@@ -1,0 +1,106 @@
+.PokemonBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 800px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+  height: 70%;
+  width: 75%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.PokemonImage {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
+}
+
+.PokemonImage img {
+  width: 96%;
+  object-fit: contain;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+.PokemonBody {
+  padding: 2.5rem 3rem;
+  height: 100%;
+  width: 60%;
+}
+
+.PokemonBody h2 {
+  padding: 0.5rem 0;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+
+  margin-bottom: 1rem;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.CloseButton{
+  background: red;
+  border: none;
+  padding: 9px;
+  border-radius: 6px;
+  font-weight: 900;
+}
+
+.PokemonInfo {
+  display: flex;
+  flex-direction: column;
+
+}
+.statName {
+  width: 44%;
+}
+
+.PokemonInfoItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    
+}
+.PokemonInfoItem p{
+  padding-top: 6px;
+}
+
+.statsBar{
+ display: flex;
+}
+.progBar{
+  width: 100%;
+}
+
+.PokemonInfoItem h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.PokemonInfoItem p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+.details{
+  color: black;
+}
+
+.pokeLogo{
+  position: absolute;
+  z-index: 1;
+}
